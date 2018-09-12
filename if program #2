@@ -1,0 +1,12 @@
+/* Checking the bonus amount */
+#include <stdio.h>
+void main ()
+{
+    int styr,endyr;
+    int bon=0;
+    printf ( "Enter Starting and Ending Years ");
+    scanf ( "%d %d",&styr,&endyr);
+    if ( endyr-styr>=3)
+    bon=1000;
+    printf (" Total Bonus is Rs %d",bon);
+}
