@@ -1,0 +1,19 @@
+/* Calculating Gross Salary from Base Salary */
+#include <stdio.h>
+void main ()
+{
+    float bs, gs;
+    printf ( "Enter basic salary ") ;
+    scanf ( "%f", &bs) ;
+    if ( bs < 1500)
+    {
+        gs=bs+bs/10+95*bs/100;
+        
+    }
+    else
+    {
+        gs=bs+500+98*bs/100;
+        
+    }
+printf ("Gross Salary is= %f",gs);
+}
