@@ -1,2 +1,2 @@
 # hello-world
-my first repository
+Programming Practice of C Language
