@@ -1,0 +1,22 @@
+/* Calculating Salary of the Employee Based on Gender, Years of Service and Qualification */
+#include <stdio.h>
+void main()
+{
+    int yos, sal;
+    char qlfc, gen;
+    printf ( "Enter Gender, qualification, Years of Service");
+    scanf ( "%c %c %d",&gen,&qlfc,&yos);
+    if((gen=='M'&&yos>=10&&qlfc=="G")||(gen=='M'&&yos<10&&qlfc=='P')||(gen=='F'&&yos<10&&qlfc=='P'))
+    sal=10000;
+    else if(gen=='M'&&yos>=10&&qlfc=='P')
+    sal=15000;
+    else if(gen=='M'&&yos<10&&qlfc=='G')
+    sal=7000;
+    else if(gen=='F'&&yos>=10&&qlfc=='P')
+    sal=12000;
+    else if(gen='F'&&yos>=10&&qlfc=='G')
+    sal=9000;
+    else if(gen='F'&&yos<10&&qlfc=='G')
+    sal=6000;
+    printf ( "Salary of the Employee is= Rs.%d",sal);
+}
