@@ -1,0 +1,19 @@
+/* To find the eligiblity */
+#include <stdio.h>
+void main()
+{
+    int age;
+    char gen, stat;
+    printf ( "Enter Gender, status and Age");
+    scanf ( "%c %c %d",&gen,&stat,&age);
+    if(stat=='M')
+    printf ( "Eligible");
+    else if(( age>=30) && ( gen='M'))
+    printf ( "Eligible");
+    else if(( age>=25) && ( gen='F'))
+    printf ( "Eligible");
+    else
+    {
+        printf ( "Ineligible");
+    }
+}
