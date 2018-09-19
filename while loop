@@ -1,0 +1,15 @@
+/* Squares of odd numbers till 25 */
+#include <stdio.h>
+void main()
+{
+    int a,b,c;
+    b=0;
+    while ( b<=12)
+    {
+        a=2*b+1;
+        c=a*a;
+        printf ("%d\n",c);
+        b++;
+    }
+
+}
