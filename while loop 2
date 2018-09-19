@@ -1,0 +1,16 @@
+/* average of three numbers */
+#include <stdio.h>
+void main ()
+{
+    int a,b;
+    float sum;
+    sum=0;
+    a=1;
+    while (a<=3)
+    {
+        scanf ("%d",&b);
+        sum=sum+b;
+        a++;
+    }
+    printf ("%f",sum/3);
+}
